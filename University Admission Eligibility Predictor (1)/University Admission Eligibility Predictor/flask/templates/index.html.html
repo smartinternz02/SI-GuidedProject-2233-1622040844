@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+   
+<form action="{{ url_for('y_predict')}}" method="post">    
+
+<h1 style = "color:blue;text-align:center;">UNIVERSITY ADMISSION ELIGIBILITY PREDICTION SYSTEM</h1>
+       <h2 style = "color:green;">Enter your Details</h2>
+       <h3>Check probability of your ADMISSION</h3>
+       <h4>ALL THE BEST!!</h4>
+<form>
+<table>
+
+<tr>
+<td>
+     <h3>Enter GRE Score:</h3>
+</td>
+<td>
+
+<br><input type="text" name="gre" placeholder="Enter GRE Score " required="required"/><br><br>
+</td>
+</tr>
+
+<tr>
+<td>
+     <h3>Select University no : </h3></br></br></br></br>
+</td>
+<td>
+      <br><input type="radio" name="rating" value="1">1 <br>
+          <input type="radio" name="rating" value="2"> 2 <br>
+          <input type="radio" name="rating" value="3"> 3<br>
+          <input type="radio" name="rating" value="4"> 4 <br>
+          <input type="radio" name="rating" value="5"> 5 <br><br>
+</td>
+</tr> 
+
+<tr>
+<td>
+     <h3>Enter TOEFL Score:</h3>
+</td>
+<td>
+   <br><input type="text" name="toefl" placeholder="Enter TOEFL" required="required"/><br><br>
+</td>
+</tr>                  
+
+<tr>
+<td>
+     <h3>Enter SOP:</h3>
+</td>
+<td>
+<br><input type="text" name="sop" placeholder="Enter SOP"  required="required"/><br><br>
+</tr> 
+
+<tr>
+<td>
+     <h3>Enter LOR:</h3>
+</td>
+<td>
+<br><input type="text" name="lor" placeholder="Enter LOR"  required="required"/><br><br>
+</td>
+</tr> 
+
+<tr>
+<td>
+    <h3>Enter CGPA :</h3>
+</td>
+<td>
+<br><input type="text" name="cgpa" placeholder="Enter CGPA"  required="required"/><br><br>
+</td>
+</tr> 
+
+<tr>
+<td>
+     <h3>Research :</h3></br>
+</td>
+<td>
+<br><input type="radio" name="research" value="1" > Research  <br>
+                        <input type="radio" name="research" value="0">  NO Research <br><br>
+  
+</td>
+</tr> 
+<tr>
+<td colspan = "2" align = "center">
+<input type="SUBMIT" value = "SUBMIT">
+<input type="RESET" value = "RESET">
+</td>
+</tr> 
+
+
+
+</table>
+</form>
+<head>
+<style>
+body {
+  background-image: url('../static/hi.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+</head>       
+
+</body>
+</html> 
